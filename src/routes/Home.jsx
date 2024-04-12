@@ -1,8 +1,20 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import client from "../api/axios";
 
 export const Home = () => {
+  useEffect(() => {
+    async function loadData() {
+      const res = await client.get("/ordenes-mensuales");
+
+      console.log(res.data);
+    }
+    loadData();
+  }, []);
+
   return (
     <section className="h-screen flex flex-col justify-center mx-20">
+      <div></div>
       <div className="border-slate-300 border-[1px] rounded-3xl py-14 px-12 shadow-md">
         <div className="flex justify-center w-full">
           <p className="font-bold text-2xl underline text-slate-500">
