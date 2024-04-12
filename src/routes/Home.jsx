@@ -13,21 +13,23 @@ export const Home = () => {
   }, []);
 
   return (
-    <section className="h-screen flex flex-col justify-center mx-20">
-      <div></div>
+    <section className="h-screen flex flex-col justify-center mx-20 max-md:mx-4">
+      <div className="flex max-md:justify-center">
+        <img src={"/logo.png"} className="w-[150px] mb-10" />
+      </div>
       <div className="border-slate-300 border-[1px] rounded-3xl py-14 px-12 shadow-md">
         <div className="flex justify-center w-full">
-          <p className="font-bold text-2xl underline text-slate-500">
+          <p className="font-bold text-2xl underline text-slate-500 max-md:text-base">
             SISTEMAS DE TECNOHOUSE SELECCIONA AL CUAL ACCEDER
           </p>
         </div>
 
-        <div className="grid-cols-4 grid gap-5 mt-10">
+        <div className="grid-cols-4 grid gap-5 mt-10 max-md:grid-cols-1 max-md:mt-5">
           <Link
             to={"https://tecnohouseaberturas.netlify.app/"}
             className="flex items-center gap-4 border-slate-300 border-[1px] py-4 px-5 rounded-2xl hover:shadow-md transition-all ease-linear cursor-pointer"
           >
-            <p className="text-xl font-bold py-2 px-2">
+            <p className="text-xl font-bold py-2 px-2 max-md:text-sm">
               SISTEMA ABERTURAS/SALIDAS TECNOHOUSE
             </p>
             <svg
@@ -49,7 +51,7 @@ export const Home = () => {
             to={"https://logistica-salidas-remuneraciones.netlify.app/"}
             className="flex items-center gap-4 border-slate-300 border-[1px] py-4 px-5 rounded-2xl hover:shadow-md transition-all ease-linear cursor-pointer"
           >
-            <p className="text-xl font-bold py-2 px-2 ">
+            <p className="text-xl font-bold py-2 px-2 max-md:text-sm">
               SISTEMA LOGISTICA PARQUE INDUSTRIAL
             </p>
             <svg
@@ -71,7 +73,7 @@ export const Home = () => {
             to={"https://tecnohouse-compras.netlify.app/"}
             className="flex items-center gap-4 border-slate-300 border-[1px] py-4 px-5 rounded-2xl hover:shadow-md transition-all ease-linear cursor-pointer"
           >
-            <p className="text-xl font-bold py-2 px-2 ">
+            <p className="text-xl font-bold py-2 px-2 max-md:text-sm">
               SISTEMA COMPRAS PARQUE INDUSTRIAL
             </p>
             <svg
@@ -93,7 +95,7 @@ export const Home = () => {
             to={"https://tecnohousegastos.netlify.app/"}
             className="flex items-center gap-4 border-slate-300 border-[1px] py-4 px-5 rounded-2xl hover:shadow-md transition-all ease-linear cursor-pointer"
           >
-            <p className="text-xl font-bold py-2 px-2 ">
+            <p className="text-xl font-bold py-2 px-2 max-md:text-sm">
               SISTEMA GENERAR PRESUPUESTOS ABERTURAS
             </p>
             <svg
