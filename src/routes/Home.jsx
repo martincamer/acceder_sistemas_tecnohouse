@@ -15,7 +15,7 @@ export const Home = () => {
             to={"https://tecnohouseaberturas.netlify.app/"}
             className="flex items-center gap-4 border-slate-300 border-[1px] py-4 px-5 rounded-2xl hover:shadow-md transition-all ease-linear cursor-pointer"
           >
-            <p className="text-xl py-2 px-2 ">
+            <p className="text-xl font-bold py-2 px-2">
               SISTEMA ABERTURAS/SALIDAS TECNOHOUSE
             </p>
             <svg
@@ -24,7 +24,7 @@ export const Home = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-6"
+              className="w-10 h-10"
             >
               <path
                 strokeLinecap="round"
@@ -37,7 +37,7 @@ export const Home = () => {
             to={"https://logistica-salidas-remuneraciones.netlify.app/"}
             className="flex items-center gap-4 border-slate-300 border-[1px] py-4 px-5 rounded-2xl hover:shadow-md transition-all ease-linear cursor-pointer"
           >
-            <p className="text-xl py-2 px-2 ">
+            <p className="text-xl font-bold py-2 px-2 ">
               SISTEMA LOGISTICA PARQUE INDUSTRIAL
             </p>
             <svg
@@ -46,7 +46,7 @@ export const Home = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-6"
+              className="w-10 h-10"
             >
               <path
                 strokeLinecap="round"
@@ -59,7 +59,7 @@ export const Home = () => {
             to={"https://tecnohouse-compras.netlify.app/"}
             className="flex items-center gap-4 border-slate-300 border-[1px] py-4 px-5 rounded-2xl hover:shadow-md transition-all ease-linear cursor-pointer"
           >
-            <p className="text-xl py-2 px-2 ">
+            <p className="text-xl font-bold py-2 px-2 ">
               SISTEMA COMPRAS PARQUE INDUSTRIAL
             </p>
             <svg
@@ -68,7 +68,7 @@ export const Home = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-6"
+              className="w-10 h-10"
             >
               <path
                 strokeLinecap="round"
@@ -81,7 +81,7 @@ export const Home = () => {
             to={"https://tecnohousegastos.netlify.app/"}
             className="flex items-center gap-4 border-slate-300 border-[1px] py-4 px-5 rounded-2xl hover:shadow-md transition-all ease-linear cursor-pointer"
           >
-            <p className="text-xl py-2 px-2 ">
+            <p className="text-xl font-bold py-2 px-2 ">
               SISTEMA GENERAR PRESUPUESTOS ABERTURAS
             </p>
             <svg
@@ -90,7 +90,7 @@ export const Home = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-6"
+              className="w-10 h-10"
             >
               <path
                 strokeLinecap="round"
